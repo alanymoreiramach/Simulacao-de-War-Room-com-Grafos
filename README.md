@@ -82,11 +82,12 @@ Essa abordagem não garante a solução ótima em todos os casos, mas produz uma
 
 ## Complexidade
 
-A complexidade aproximada do algoritmo é:
+A complexidade aproximada da implementação atual é:
 
 ```text
-O(V * E)
-```
+O(V² * E)
+
+---
 
 Onde:
 
@@ -166,15 +167,14 @@ Destino: d
 
 ```text
 === Vertex Cover ===
-
 Vértices escolhidos:
-a
-d
+- a
+- d
 
 Tamanho da cobertura: 2
 
-Complexidade aproximada: O(V * E)
-```
+Complexidade aproximada da implementação: O(V^2 * E)
+(Implementação baseada em heurística gulosa de aproximação)
 
 ---
 
